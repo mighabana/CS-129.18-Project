@@ -30,7 +30,7 @@ pedestrian_cascade = cv2.CascadeClassifier('pedestrian.xml')
 
 ret,frame=cap.read()
 
-out = cv2.VideoWriter('video3_myhaar13.mp4',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (640,360))
+out = cv2.VideoWriter('viola-jones_output.mp4',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (640,360))
 
 #loop over all frames i.e. play the video
 while(cap.isOpened()):
